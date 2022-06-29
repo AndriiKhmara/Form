@@ -421,29 +421,25 @@ p {
 .photo-reset-icon {
     position: absolute;
     left: 25%;
-        right: 25%;
-        top: 20%;
-        bottom: 12.5%;
+    right: 25%;
+    top: 20%;
+    bottom: 12.5%;
     color:#969696; 
 }
 
 .text-size-img {
     position: absolute;
-        height: 18px;
-        left: 23.68%;
-        right: 51.58%;
-        top: calc(50% - 18px/2 - 149px);
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 18px;
-        /* identical to box height, or 138% */
-    
-        letter-spacing: -0.1px;
-    
-        color: #969696;
+    height: 18px;
+    left: 23.68%;
+    right: 51.58%;
+    top: calc(50% - 18px/2 - 149px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
 }
 
 label input {
