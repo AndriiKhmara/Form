@@ -449,3 +449,17 @@ label input {
 label select {
     margin-top: 7px;
 }
+
+select:invalid {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #797979;
+}
+
+input:focus, select:focus {
+    border: 3px solid #007BFF;
+}
