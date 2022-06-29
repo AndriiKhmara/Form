@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <section class="account">
+            <form>
+                <legend>Create an acount</legend>
+                    <div class="name">
+                        <label class="label-first-name">First name <br><input class="input-first-name" type="text"></label>
+                    </div>
+                    <div class="last-name">
+                        <label class="label-last-name">Last name <br><input class="input-last-name" type="text"></label>
+                    </div>
+                    <div class="email">
+                        <label class="label-email">E-mail <br><input class="input-email" type="email"></label>
+                        <p>We'll never share your email with anyone else.</p>
+                    </div>
+                    <div class="radio-button-first">
+                        <label class="radio-button-text"><input type="radio" name="male"  checked value="1">Male</label>  
+                    </div>
+                    <div class="radio-button-second">
+                        <label class="radio-button-text"><input type="radio" name="male" value="2">Female</label>
+                    </div>
+                    <div class="country">
+                        <label>
+                            <p>Country</p>
+                            <select class="select">
+                            <option value="1"></option>
+                            <option value="2">UA</option>
+                            <option value="3">USA</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="city">
+                        <label class="label-city">City <br><input class="input-city" type="text"></label>
+                    </div> 
+                    <div class="button-sign">
+                        <button class="button-accept">Sign Up</button>
+                    </div>
+                    <div class="links">
+                        <p>By clicking the 'Sign Up' button, you confirm that you accept our <br> <a href="#" target="_blank">Terms of Use</a>
+                        and <a href="#" target="_blank">Privacy Policy</a></p>
+                    </div>
+                    <hr>
+                    <div class="log-in">
+                        <p class="font-paragraph">Have an account?
+                            <span class="font-link"><a href="#" target="_blank">Log In</a></span>
+                        </p>
+                    </div>
+            </form>
+        </section>
+        <section class="profile">
+            <form>
+                <legend>Profile</legend>
+                <div class="photo">
+                    <img src="images/📷 Image.jpg" alt="">
+                </div>
+                <div class="input-file">
+                    <input class="visually-hidden" type="file" id="file">
+                        <label for="file">
+                            <div class="icon-input">
+                                <span class="photo-icon">
+                                    <i class="fa-solid fa-camera"></i>
+                                </span>
+                            </div>
+                        </label>
+                </div>
+                <div class="input-file-reset">
+                    <input class="visually-hidden" type="reset" id="reset">
+                    <label for="reset">
+                        <div class="icon-reset">
+                            <span class="photo-reset-icon">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </div>
+                    </label>
+                </div>
+                <div class="text-size-img">
+                    <p>Up to 1 MB (300x300 px)</p>
+                </div>
+                <div class="username">
+                    <label>Name <br><input type="text"></label>
+                </div>
+                <div class="useremail">
+                    <label>E-mail <br><input type="email"></label>
+                </div>
+                <div class="usercountry">
+                    <label class="usercountry-label">
+                        <p>Country</p>
+                        <select class="select-country">
+                            <option value="1"></option>
+                            <option value="2">UA</option>
+                            <option value="3">USA</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="usercity">
+                    <label>City <br><input type="text"></label>
+                </div>
+                <div class="zipcode">
+                    <label>Zip Code <br><input type="text"></label>
+                </div>
+                <div class="phonenumber">
+                    <label>Phone Number <br><input type="number"></label>
+                </div>
+                <div class="button-block"> 
+                    <button class="button-update">Update</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/106363a03a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
