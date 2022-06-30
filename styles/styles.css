@@ -64,6 +64,10 @@ hr {
     bottom: 23.22%;
 }
 
+.button-accept:hover, .button-update:hover {
+    background-color: rgb(91, 0, 182);
+}
+
 .links {
     position: absolute;
     left: 14.21%;
@@ -95,6 +99,10 @@ hr {
 
 a {
     text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: rgb(216, 176, 255);
 }
 
 .font-paragraph {
@@ -460,6 +468,9 @@ select:invalid {
     color: #797979;
 }
 
+
 input:focus, select:focus {
-    border: 3px solid #007BFF;
+    border: 1px solid #007BFF;
+    outline: none;
 }
+
